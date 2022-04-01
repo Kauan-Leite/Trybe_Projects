@@ -1,0 +1,13 @@
+h1, p{
+    text-align: center;
+}
+li:hover{
+    background-color: rgb(35, 35, 155);
+    color: red;
+}
+li:active{
+    font-family: Helvetica;
+}
+ul, ol{
+    list-style: none;
+}
