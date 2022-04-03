@@ -1,0 +1,15 @@
+spam1 h3:hover{
+    border: 5px red solid;
+}
+spam2 h3:hover{
+    border: 5px orange solid;
+}
+spam3 h3:hover{
+    border: 5px violet solid;
+}
+spam4 h3:hover{
+    border: 5px #000333 solid;
+}
+spam5 h3:hover{
+    border: 5px rgb(130, 238, 202) solid;
+}
