@@ -1,4 +1,38 @@
 *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mukta', sans-serif;
+}
+body{
     background-color: rgb(10, 6, 56);
     color: white;
+}
+header{
+    margin: 4px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 0.25px;
+}
+.menu{
+    margin: 8px;
+    border-radius: 5px;
+    background-color: rgb(109, 148, 255);
+}
+.menu li {
+    display: inline-block;
+    list-style: none;
+    font-size: 18px;
+    margin-left: 20%;
+}
+.menu li a{
+    color: rgb(30, 255, 0);
+    font-weight: 700;
+}
+.menu li a:hover{
+    transition: 200ms;
+    color: rgb(200, 255, 0);
+}
+header h1{
+    text-align: center;
+    color: rgb(43, 39, 39);
 }
