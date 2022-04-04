@@ -1,0 +1,16 @@
+*{
+    list-style: none;
+    text-align: center;
+}
+
+.first{
+    margin: 0 auto;
+}
+
+.second , .third{
+    display: inline-block;
+}
+
+.premios li{
+    display: inline;
+}
