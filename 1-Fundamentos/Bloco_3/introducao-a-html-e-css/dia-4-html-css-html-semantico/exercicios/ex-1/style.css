@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mukta', sans-serif;
+    color: rgb(43, 39, 39);
+}
+body{
+    background-color: rgb(10, 6, 56);
+    color: white;
+}
+header{
+    margin: 8px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 0.25px;
+}
+.menu{
+    margin: 8px;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+}
+.menu li {
+    display: inline-block;
+    list-style: none;
+    font-size: 18px;
+    margin-left: 20%;
+}
+.menu li a{
+    color: rgb(30, 255, 0);
+    font-weight: 700;
+}
+.menu li a:hover{
+    transition: 200ms;
+    color: rgb(255, 0, 0);
+}
+header h1{
+    text-align: center;
+    color: rgb(43, 39, 39);
+}
+
+main {
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 24px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+article h2,  .infoGerais h3, .infoGerais h4{
+    margin-top: 8px;
+    text-align: center;
+}
+ .infos{
+    text-align: justify;
+    margin: 10px 200px;
+    padding-bottom: 25px;
+}
+article p{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.classificacao{
+    text-align: center;
+}
+.imgAnimal{
+    width: 300px;
+    border-radius: 20px;
+    position: absolute;
+    top: 310px;
+    right: 90px;
+}
+.gifs{
+    margin-left: 500px;
+    width: 250px;
+}
+.referencias{
+    margin: 8px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 0.25px;
+}
+footer{
+    margin: 8px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 0.25px;
+    text-align: center;
+    font-size: 10px;
+}
