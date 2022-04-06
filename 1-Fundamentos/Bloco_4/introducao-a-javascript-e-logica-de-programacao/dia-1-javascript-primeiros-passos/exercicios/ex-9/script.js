@@ -1,0 +1,9 @@
+const number1 = 30;
+const number2 = 24;
+const number3 = 111;
+
+if(number1 % 2 === 1 || number2 % 2 === 1 || number3 % 2 === 1){
+    console.log(true);
+}else{
+    console.log(false);
+}
