@@ -56,7 +56,7 @@
         */
 
         function changeDescription(){
-            document.getElementsByTagName("p")[0].innerHTML = "Um Dev Junior";
+            document.getElementsByTagName("p")[1].innerHTML = "Um Dev Junior";
         }
 
         function changeColorBetween(){
@@ -69,6 +69,19 @@
 
         function changeTextH1(){
             document.getElementsByTagName("h1")[0].innerHTML = "Exercício 5.1 - JavaScript";
+        }
+
+        function uppercaseP(){
+            let texto = '';
+            let maiuscula = ''
+   
+            texto = document.getElementsByTagName("p");
+
+            for(let index = 0; index < texto.length; index += 1 ){
+                maiuscula = document.getElementsByTagName("p")[index].innerText.toUpperCase();
+                document.getElementsByTagName("p")[index].innerHTML = maiuscula;
+            }
+
         }
 
         
