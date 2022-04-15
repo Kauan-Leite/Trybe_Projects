@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      // COLOQUE SEU CÓDIGO AQUI
+      let body = document.querySelector('body');    //BUSCA O BODY
+      let h1 = document.createElement('h1');    //BUSCA O H1
+      h1.classList.add('title')
+
+      h1.innerHTML = ('Exercício 5.2 - JavaScript DOM');    //ACRESENTA O CONTEUDO NO H1
+      body.appendChild(h1);     //ADICIONA H1 COMO FILHO DO BODY
+
+
+      let main = document.createElement('main'); //BUSCA O MAIN
+      main.classList.add("main-content");   //ADICIONA A CLASSE NO MAIN
+
+      body.appendChild(main); //ADICIONA MAIN COMO FILHO DO BODY
+
+      let sectionC = document.createElement('section');
+      sectionC.classList.add("center-content");
+
+      main.appendChild(sectionC);
+
+      let p = document.createElement('p');
+      p.innerHTML = ('Teste de Texto do "P"');
+
+      sectionC.appendChild(p);
+
+      let sectionL = document.createElement('section');
+      sectionL.classList.add('left-content');
+      main.appendChild(sectionL);
+
+      let img = document.createElement('img');
+      img.classList.add('small-image');
+      img.src = ("https://picsum.photos/200");
+
+      sectionL.appendChild(img)
+
+      let sectionR = document.createElement('section');
+      sectionR.classList.add('right-content');
+
+      main.appendChild(sectionR);
+
+      let numbersExtenso = ['um', 'dois', 'tres', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+
+      let listaUL = document.createElement('ul');   //CRIA UMA LISTA UL
+      listaUL.classList.add('listaNaoOrdenada');
+      sectionR.appendChild(listaUL)
+
+
+      for(index = 0; index < numbersExtenso.length; index += 1){
+
+        let itemUL = document.createElement('li');
+        let itemLista;
+
+        itemLista = numbersExtenso[index];
+        itemUL.innerHTML = itemLista;
+
+        listaUL.appendChild(itemUL)
+      }
+
+      h3A = document.createElement('h3');
+      h3A.classList.add('description')
+      h3A.innerHTML = ("Teste do H3 Numero 1"); 
+      main.appendChild(h3A);
+
+      h3B = document.createElement('h3');
+      h3B.classList.add('description')
+      h3B.innerHTML = ("Teste do H3 Numero 2"); 
+      main.appendChild(h3B);
+      
+
+      h3C = document.createElement('h3');
+      h3C.classList.add('description')
+      h3C.innerHTML = ("Teste do H3 Numero 3"); 
+      main.appendChild(h3C);
+
+      main.removeChild(sectionL);
+
+      sectionR.style.marginRight = 'auto';
+
+      sectionC.style.backgroundColor = 'green';
+
+      let listaULR = document.querySelector('ul');
+      let itemListaR = document.querySelectorAll('li');
+
+      listaULR.removeChild(itemListaR[8]);
+      listaULR.removeChild(itemListaR[9]);
+
+
+    </script>
+  </body>
+</html>
