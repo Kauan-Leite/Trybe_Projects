@@ -60,6 +60,7 @@
       // COLOQUE SEU CÓDIGO AQUI
       let body = document.querySelector('body');    //BUSCA O BODY
       let h1 = document.createElement('h1');    //BUSCA O H1
+      h1.classList.add('title')
 
       h1.innerHTML = ('Exercício 5.2 - JavaScript DOM');    //ACRESENTA O CONTEUDO NO H1
       body.appendChild(h1);     //ADICIONA H1 COMO FILHO DO BODY
@@ -114,16 +115,32 @@
       }
 
       h3A = document.createElement('h3');
+      h3A.classList.add('description')
       h3A.innerHTML = ("Teste do H3 Numero 1"); 
       main.appendChild(h3A);
 
       h3B = document.createElement('h3');
+      h3B.classList.add('description')
       h3B.innerHTML = ("Teste do H3 Numero 2"); 
       main.appendChild(h3B);
+      
 
       h3C = document.createElement('h3');
+      h3C.classList.add('description')
       h3C.innerHTML = ("Teste do H3 Numero 3"); 
       main.appendChild(h3C);
+
+      main.removeChild(sectionL);
+
+      sectionR.style.marginRight = 'auto';
+
+      sectionC.style.backgroundColor = 'green';
+
+      let listaULR = document.querySelector('ul');
+      let itemListaR = document.querySelectorAll('li');
+
+      listaULR.removeChild(itemListaR[8]);
+      listaULR.removeChild(itemListaR[9]);
 
 
     </script>
