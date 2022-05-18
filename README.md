@@ -3,7 +3,7 @@ O repositorio contÃ©m todas os exercicios realizados por mim durante o meu <b>1Â
 
 #### Fundamentos do Desenvolvimento Web [Em Progresso]
 
-- :heavy_check_mark: Bloco 1
+- Bloco 1 :heavy_check_mark:
 
 #### Desenvolvimento Front-end [...]
 
