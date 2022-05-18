@@ -1,7 +1,9 @@
 ## Trybe - Exercícios
-O repositorio contém todas os exercicios realizados por mim durante o meu <b>1° mês</b> na Trybe.
+O repositorio contém todas os exercicios realizados por mim durante o meu <b>1° Trimestre</b> na Trybe.
 
 #### Fundamentos do Desenvolvimento Web [Em Progresso]
+
+- [x] Bloco 1
 
 #### Desenvolvimento Front-end [...]
 
