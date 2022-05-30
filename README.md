@@ -1,5 +1,5 @@
 ## Trybe Exercícios
-O repositorio contém todas os exercicios realizados por mim durante <b>2 Mêses</b> de estudo na Trybe.
+O repositorio contém todos os exercicios realizados por mim durante <b>2 Mêses</b> de estudo na Trybe.
 
 <details>
   <summary><strong>Fundamentos do Desenvolvimento Web :construction:</strong></summary><br />
