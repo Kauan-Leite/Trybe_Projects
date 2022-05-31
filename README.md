@@ -2,7 +2,7 @@
 O repositorio contém todos os exercicios realizados por mim durante <b>2 Mêses</b> de estudo na Trybe.
 
 <details>
-  <summary><strong>Fundamentos do Desenvolvimento Web :construction:</strong></summary><br />
+  <summary><strong>Fundamentos do Desenvolvimento Web :heavy_check_mark:</strong></summary><br />
   <details><summary>:heavy_check_mark: Bloco 1</summary>
       - Fundamentos do Desenvolvimento Web <br>
       - Unix & Bash
@@ -35,15 +35,15 @@ O repositorio contém todos os exercicios realizados por mim durante <b>2 Mêses
     - JavaScript - ES6 e Testes Unitários <br>
     <strong>- JavaScript Testes Unitários</strong>
   </details>
-  <details><summary>:construction: - Bloco 8</summary>
+  <details><summary>:heavy_check_mark: - Bloco 8</summary>
     - JavaScript ES6 - Higher Order Functions <br>
     <strong>- Zoo Functions</strong>
   </details>
 </details>
 
 <details>
-  <summary><strong>Desenvolvimento Front-end :white_check_mark:</strong></summary><br />
-    <details><summary>:white_check_mark: Bloco 9</summary></details>
+  <summary><strong>Desenvolvimento Front-end :construction:</strong></summary><br />
+    <details><summary>:construction: Bloco 9</summary></details>
     <details><summary>:white_check_mark: Bloco 10</summary></details>
     <details><summary>:white_check_mark: Bloco 11</summary></details>
     <details><summary>:white_check_mark: Bloco 12</summary></details>
