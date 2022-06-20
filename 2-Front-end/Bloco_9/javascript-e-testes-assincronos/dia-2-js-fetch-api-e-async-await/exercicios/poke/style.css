@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@600&display=swap');
+
+li {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  background-color: rgb(181, 221, 132);
+  margin-right: 12px;
+  padding: 12px;
+  border-radius: 5px;
+  color: green;
+  font-size: 24px;
+  font-family: Epilogue;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-family: Epilogue;
+  font-weight: 600;
+}
