@@ -1,0 +1,36 @@
+* {
+  text-align: center;
+  justify-content: center;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+section {
+  background-color: darkred;
+  width: 330px;
+  height: 450px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 3px solid black;
+  color: white;
+}
+
+article {
+  display: flex;
+  flex-flow: wrap;
+}
+
+img {
+  background-color: white;
+  border-radius: 10px;
+  width: 190px;
+  margin-bottom: 30px;
+}
+
+section:hover {
+  transition: 1s;
+  font-size: 18px;
+  text-decoration: underline;
+}
