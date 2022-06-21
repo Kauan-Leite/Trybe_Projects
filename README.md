@@ -35,7 +35,7 @@ O repositorio contém todos os exercicios realizados por mim durante <b>2 Mêses
     - JavaScript - ES6 e Testes Unitários <br>
     <strong>- JavaScript Testes Unitários</strong>
   </details>
-  <details><summary>:heavy_check_mark: - Bloco 8</summary>
+  <details><summary>:heavy_check_mark: Bloco 8</summary>
     - JavaScript ES6 - Higher Order Functions <br>
     <strong>- Zoo Functions</strong>
   </details>
@@ -43,7 +43,7 @@ O repositorio contém todos os exercicios realizados por mim durante <b>2 Mêses
 
 <details>
   <summary><strong>Desenvolvimento Front-end :construction:</strong></summary><br />
-    <details><summary>:heavy_check_mark: - Bloco 9</summary>
+    <details><summary>:heavy_check_mark: Bloco 9</summary>
     - JavaScript e Testes Assíncronos<br>
     <strong>- Carrinho de Compras</strong>
   </details>
