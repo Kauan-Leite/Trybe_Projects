@@ -43,7 +43,10 @@ O repositorio contém todos os exercicios realizados por mim durante <b>2 Mêses
 
 <details>
   <summary><strong>Desenvolvimento Front-end :construction:</strong></summary><br />
-    <details><summary>:construction: Bloco 9</summary></details>
+    <details><summary>:heavy_check_mark: - Bloco 9</summary>
+    - JavaScript e Testes Assíncronos<br>
+    <strong>- Carrinho de Compras</strong>
+  </details>
     <details><summary>:white_check_mark: Bloco 10</summary></details>
     <details><summary>:white_check_mark: Bloco 11</summary></details>
     <details><summary>:white_check_mark: Bloco 12</summary></details>
