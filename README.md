@@ -47,7 +47,10 @@ O repositorio contém todos os exercicios realizados por mim durante <b>2 Mêses
     - JavaScript e Testes Assíncronos<br>
     <strong>- Carrinho de Compras</strong>
   </details>
-    <details><summary>:white_check_mark: Bloco 10</summary></details>
+  <details><summary>:construction: Bloco 10</summary>
+    - Introdução à React<br>
+    <strong>- Sistema Solar</strong>
+  </details>
     <details><summary>:white_check_mark: Bloco 11</summary></details>
     <details><summary>:white_check_mark: Bloco 12</summary></details>
     <details><summary>:white_check_mark: Bloco 13</summary></details>
