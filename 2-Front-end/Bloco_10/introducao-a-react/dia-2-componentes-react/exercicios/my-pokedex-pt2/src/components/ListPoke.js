@@ -3,16 +3,13 @@ import Pokemon from './Pokemon';
 import pokes from '../data';
 
 class ListPoke extends React.Component {
+
+  
+
   render() {
     return (
       <article>
-        {
-          pokes.map((poke) => {
-            return (
-              <Pokemon dataItem={poke} key={poke.id}/>
-            );
-          })
-        }
+              <Pokemon dataItem={pokes[1]} key={pokes[0].id}/>
       </article>
     );
   }
