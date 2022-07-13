@@ -51,13 +51,22 @@ O repositorio contém todos os exercicios realizados por mim durante <b>2 Mêses
     - Introdução à React<br>
     <strong>- Sistema Solar</strong>
   </details>
-    <details><summary>:construction: Bloco 11</summary>
+    <details><summary>:heavy_check_mark: Bloco 11</summary>
     - Componentes com Estado, Eventos e Formulários em React<br>
     <strong>- Tryunfo</strong>
   </details>
-    <details><summary>:white_check_mark: Bloco 12</summary></details>
-    <details><summary>:white_check_mark: Bloco 13</summary></details>
-    <details><summary>:white_check_mark: Bloco 14</summary></details>
+    <details><summary>:heavy_check_mark: Bloco 12</summary>
+    - Ciclo de Vida de Componentes e React Router<br>
+    <strong>- TrybeTunes</strong>
+  </details>
+    <details><summary>:heavy_check_mark: Bloco 13</summary>
+    - Metodologias Ágeis<br>
+    <strong>- Frontend Online Store</strong>
+  </details>
+    <details><summary>:construction: Bloco 14</summary>
+    - Testes Automatizados com React Testing Library<br>
+    <strong>- Testes em React</strong>
+  </details>
     <details><summary>:white_check_mark: Bloco 15</summary></details>
     <details><summary>:white_check_mark: Bloco 16</summary></details>
     <details><summary>:white_check_mark: Bloco 17</summary></details>
