@@ -63,11 +63,11 @@ O repositorio contém todos os exercicios realizados por mim durante <b>2 Mêses
     - Metodologias Ágeis<br>
     <strong>- Frontend Online Store</strong>
   </details>
-    <details><summary>:construction: Bloco 14</summary>
+    <details><summary>:heavy_check_mark: Bloco 14</summary>
     - Testes Automatizados com React Testing Library<br>
     <strong>- Testes em React</strong>
   </details>
-    <details><summary>:white_check_mark: Bloco 15</summary></details>
+    <details><summary>:construction: Bloco 15</summary></details>
     <details><summary>:white_check_mark: Bloco 16</summary></details>
     <details><summary>:white_check_mark: Bloco 17</summary></details>
     <details><summary>:white_check_mark: Bloco 18</summary></details>
