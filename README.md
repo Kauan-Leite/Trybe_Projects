@@ -1,5 +1,5 @@
 ## Trybe Exercícios
-O repositorio contém todos os exercicios realizados por mim durante <b>2 Mêses</b> de estudo na Trybe.
+O repositorio contém todos os exercicios realizados por mim durante <b>4 Mêses</b> de estudo na Trybe.
 
 <details>
   <summary><strong>Fundamentos do Desenvolvimento Web :heavy_check_mark:</strong></summary><br />
@@ -67,7 +67,9 @@ O repositorio contém todos os exercicios realizados por mim durante <b>2 Mêses
     - Testes Automatizados com React Testing Library<br>
     <strong>- Testes em React</strong>
   </details>
-    <details><summary>:construction: Bloco 15</summary></details>
+    <details><summary>:construction: Bloco 15</summary>
+    - Redux
+    </details>
     <details><summary>:white_check_mark: Bloco 16</summary></details>
     <details><summary>:white_check_mark: Bloco 17</summary></details>
     <details><summary>:white_check_mark: Bloco 18</summary></details>
