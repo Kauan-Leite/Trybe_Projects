@@ -69,6 +69,7 @@ O repositorio contém todos os exercicios realizados por mim durante <b>4 Mêses
   </details>
     <details><summary>:construction: Bloco 15</summary>
     - Redux
+    <strong>- Trybe Wallet</strong>
     </details>
     <details><summary>:white_check_mark: Bloco 16</summary></details>
     <details><summary>:white_check_mark: Bloco 17</summary></details>
