@@ -68,7 +68,7 @@ O repositorio contém todos os exercicios realizados por mim durante <b>4 Mêses
     <strong>- Testes em React</strong>
   </details>
     <details><summary>:construction: Bloco 15</summary>
-    - Redux
+    - Redux <br>
     <strong>- Trybe Wallet</strong>
     </details>
     <details><summary>:white_check_mark: Bloco 16</summary></details>
