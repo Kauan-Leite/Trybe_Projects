@@ -67,12 +67,18 @@ O repositorio contém todos os exercicios realizados por mim durante <b>4 Mêses
     - Testes Automatizados com React Testing Library<br>
     <strong>- Testes em React</strong>
   </details>
-    <details><summary>:construction: Bloco 15</summary>
+    <details><summary>:heavy_check_mark: Bloco 15</summary>
     - Redux <br>
     <strong>- Trybe Wallet</strong>
     </details>
-    <details><summary>:white_check_mark: Bloco 16</summary></details>
-    <details><summary>:white_check_mark: Bloco 17</summary></details>
+    <details><summary>:heavy_check_mark: Bloco 16</summary>
+    <strong>- Trivia</strong>
+    </details>
+    <details><summary>:construction: Bloco 17</summary>
+    - Context API <br>
+    - Hooks <br>
+    <strong>- StarWars Datable com Context API e Hooks</strong>
+    </details>
     <details><summary>:white_check_mark: Bloco 18</summary></details>
 </details>
 
