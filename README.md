@@ -42,7 +42,7 @@ O repositorio contém todos os exercicios realizados por mim durante <b>4 Mêses
 </details>
 
 <details>
-  <summary><strong>Desenvolvimento Front-end :construction:</strong></summary><br />
+  <summary><strong>Desenvolvimento Front-end :heavy_check_mark:</strong></summary><br />
     <details><summary>:heavy_check_mark: Bloco 9</summary>
     - JavaScript e Testes Assíncronos<br>
     <strong>- Carrinho de Compras</strong>
@@ -74,12 +74,14 @@ O repositorio contém todos os exercicios realizados por mim durante <b>4 Mêses
     <details><summary>:heavy_check_mark: Bloco 16</summary>
     <strong>- Trivia</strong>
     </details>
-    <details><summary>:construction: Bloco 17</summary>
+    <details><summary>:heavy_check_mark: Bloco 17</summary>
     - Context API <br>
     - Hooks <br>
     <strong>- StarWars Datable com Context API e Hooks</strong>
     </details>
-    <details><summary>:white_check_mark: Bloco 18</summary></details>
+    <details><summary>:heavy_check_mark: Bloco 18</summary>
+    <strong>- Recipe App</strong>
+    </details>
 </details>
 
 <details>
