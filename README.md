@@ -1,6 +1,6 @@
 <h1 align="center"> Trybe Exercícios </h1>
 <p align="center"> O repositorio contém todos os exercicios realizados por mim durante <b>4 Mêses</b> de estudo na Trybe. </p>
-
+<br>
 <details>
   <summary><strong>Fundamentos do Desenvolvimento Web :heavy_check_mark:</strong></summary><br />
   <details><summary>:heavy_check_mark: Bloco 1</summary>
