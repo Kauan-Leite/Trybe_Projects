@@ -85,8 +85,11 @@ O repositorio contém todos os exercicios realizados por mim durante <b>4 Mêses
 </details>
 
 <details>
-  <summary><strong>Desenvolvimento Back-end :white_check_mark:</strong></summary><br />
-    <details><summary>:white_check_mark: Bloco 19</summary></details>
+  <summary><strong>Desenvolvimento Back-end :construction:</strong></summary><br />
+    <details><summary>:construction: Bloco 19</summary>
+    - Docker: Utilizando Containers <br>
+    <strong>- Docker Todo-List</strong>
+    </details>
     <details><summary>:white_check_mark: Bloco 20</summary></details>
     <details><summary>:white_check_mark: Bloco 21</summary></details>
     <details><summary>:white_check_mark: Bloco 22</summary></details>
