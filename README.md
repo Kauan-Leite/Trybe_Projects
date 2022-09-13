@@ -88,6 +88,7 @@
   <summary><strong>Desenvolvimento Back-end :construction:</strong></summary><br />
     <details><summary>:heavy_check_mark: Bloco 19</summary>
     - Docker: Utilizando Containers <br>
+    - Introdução á Docker <br>
     <strong>- Docker Todo-List</strong>
     </details>
     <details><summary>:white_check_mark: Bloco 20</summary></details>
