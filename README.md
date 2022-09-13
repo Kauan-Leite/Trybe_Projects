@@ -86,7 +86,7 @@
 
 <details>
   <summary><strong>Desenvolvimento Back-end :construction:</strong></summary><br />
-    <details><summary>:construction: Bloco 19</summary>
+    <details><summary>:heavy_check_mark: Bloco 19</summary>
     - Docker: Utilizando Containers <br>
     <strong>- Docker Todo-List</strong>
     </details>
