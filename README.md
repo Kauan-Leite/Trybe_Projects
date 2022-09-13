@@ -91,7 +91,10 @@
     - Introdução á Docker <br>
     <strong>- Docker Todo-List</strong>
     </details>
-    <details><summary>:white_check_mark: Bloco 20</summary></details>
+    <details><summary>:construction: Bloco 20</summary>
+    - Introdução á SQL <br>
+    <strong>- All For One</strong>
+    </details>
     <details><summary>:white_check_mark: Bloco 21</summary></details>
     <details><summary>:white_check_mark: Bloco 22</summary></details>
     <details><summary>:white_check_mark: Bloco 23</summary></details>
