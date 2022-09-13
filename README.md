@@ -92,6 +92,7 @@
     <strong>- Docker Todo-List</strong>
     </details>
     <details><summary>:construction: Bloco 20</summary>
+    - Banco de Dados <br>
     - Introdução á SQL <br>
     <strong>- All For One</strong>
     </details>
