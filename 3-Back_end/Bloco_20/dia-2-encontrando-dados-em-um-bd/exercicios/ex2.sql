@@ -1,0 +1,1 @@
+SELECT 10 AS number1, 20 AS number2, 30 AS number3;
