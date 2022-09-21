@@ -91,12 +91,15 @@
     - Introdução á Docker <br>
     <strong>- Docker Todo-List</strong>
     </details>
-    <details><summary>:construction: Sesson 02</summary>
-    - Banco de Dados <br>
+    <details><summary>:heavy_check_mark: Sesson 02</summary>
     - Introdução á SQL <br>
     <strong>- All For One</strong>
     </details>
-    <details><summary>:white_check_mark: Sesson 03</summary></details>
+    <details><summary>:construction: Sesson 03</summary>
+    - Funcoes SQL <br>
+    - JOINs <br>
+    <strong>- One For All</strong>
+    </details>
     <details><summary>:white_check_mark: Sesson 04</summary></details>
     <details><summary>:white_check_mark: Sesson 05</summary></details>
     <details><summary>:white_check_mark: Sesson 06</summary></details>
