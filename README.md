@@ -101,8 +101,8 @@
     <strong>- One For All</strong>
     </details>
     <details><summary>:construction: Sesson 04</summary>
-    - Introducao Node.js </br>
-    -
+    - Introdução Node.js </br>
+    - </br>
     <strong>- Talker Manager</strong>
     </details>
     <details><summary>:white_check_mark: Sesson 05</summary></details>
