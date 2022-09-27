@@ -102,7 +102,7 @@
     </details>
     <details><summary>:construction: Sesson 04</summary>
     - Node.js
-  
+    <strong>- Talker Manager</strong>
     </details>
     <details><summary>:white_check_mark: Sesson 05</summary></details>
     <details><summary>:white_check_mark: Sesson 06</summary></details>
