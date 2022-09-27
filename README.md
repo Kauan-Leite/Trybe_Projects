@@ -100,7 +100,7 @@
     - JOINs <br>
     <strong>- One For All</strong>
     </details>
-    <details><summary> Sesson 04</summary></details>
+    <details><summary>:construction: Sesson 04</summary></details>
     <details><summary>:white_check_mark: Sesson 05</summary></details>
     <details><summary>:white_check_mark: Sesson 06</summary></details>
     <details><summary>:white_check_mark: Sesson 07</summary></details>
