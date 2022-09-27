@@ -95,7 +95,7 @@
     - Introdução á SQL <br>
     <strong>- All For One</strong>
     </details>
-    <details><summary> Sesson 03</summary>
+    <details><summary>:heavy_check_mark: Sesson 03</summary>
     - Funcoes SQL <br>
     - JOINs <br>
     <strong>- One For All</strong>
