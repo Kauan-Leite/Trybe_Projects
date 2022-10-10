@@ -106,10 +106,7 @@
     - Express & MySQL </br>
     <strong>- Talker Manager</strong>
     </details>
-    <details><summary>:construction: Sesson 05</summary>
-      -ui
-
-    </details>
+    <details><summary>:construction: Sesson 05</summary></details>
     <details><summary>:white_check_mark: Sesson 06</summary></details>
     <details><summary>:white_check_mark: Sesson 07</summary></details>
     <details><summary>:white_check_mark: Sesson 08</summary></details>
