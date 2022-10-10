@@ -100,13 +100,13 @@
     - JOINs <br>
     <strong>- One For All</strong>
     </details>
-    <details><summary>:construction: Sesson 04</summary>
+    <details><summary>:heavy_check_mark: Sesson 04</summary>
     - Introdução Node.js </br>
     - Express </br>
     - Express & MySQL </br>
     <strong>- Talker Manager</strong>
     </details>
-    <details><summary>:white_check_mark: Sesson 05</summary></details>
+    <details><summary>:construction: Sesson 05</summary></details>
     <details><summary>:white_check_mark: Sesson 06</summary></details>
     <details><summary>:white_check_mark: Sesson 07</summary></details>
     <details><summary>:white_check_mark: Sesson 08</summary></details>
