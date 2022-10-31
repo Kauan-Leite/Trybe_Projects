@@ -26,3 +26,8 @@ console.log(`área de um trapézio que tem B = 100cm, b = 70cm e altura = 50cm: 
 console.log(`área de um trapézio que tem B = 75cm, b = 50cm e altura = 35cm: ${Exercise.trapezio(75, 50, 35)}cm²`);
 console.log(`área de um trapézio que tem B = 150cm, b = 120cm e altura = 80cm: ${Exercise.trapezio(150, 120, 80)}cm²`);
 
+console.log(`área de um círculo de raio igual 25cm: ${Exercise.circulo(25)}cm²`);
+console.log(`área de um círculo de raio igual 100cm: ${Exercise.circulo(100)}cm²`);
+console.log(`área de um círculo de raio igual 12,5cm: ${Exercise.circulo(12.5)}cm²`);
+
+
