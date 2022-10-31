@@ -40,3 +40,6 @@ console.log(`Retângulo de base 100cm e altura 200cm: ${Exercise.rectangle(100, 
 console.log(`área de um losango que tem D = 32cm e d = 18cm: ${Exercise.losango(32, 18)}cm²`);
 console.log(`área de um losango que tem D = 200cm e d = 50cm: ${Exercise.losango(200, 50)}cm²`);
 console.log(`área de um losango que tem D = 75cm e d = 25cm: ${Exercise.losango(75, 25)}cm²`);
+console.log(`área de um trapézio que tem B = 100cm, b = 70cm e altura = 50cm: ${Exercise.trapezio(100, 70, 50)}cm²`);
+console.log(`área de um trapézio que tem B = 75cm, b = 50cm e altura = 35cm: ${Exercise.trapezio(75, 50, 35)}cm²`);
+console.log(`área de um trapézio que tem B = 150cm, b = 120cm e altura = 80cm: ${Exercise.trapezio(150, 120, 80)}cm²`);

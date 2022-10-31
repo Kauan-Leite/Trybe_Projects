@@ -1,7 +1,7 @@
 "use strict";
 // ./exercises.ts
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.losango = exports.rectangle = exports.square = exports.triangle = exports.sumArray = exports.add = exports.personAge = exports.greeter = void 0;
+exports.trapezio = exports.losango = exports.rectangle = exports.square = exports.triangle = exports.sumArray = exports.add = exports.personAge = exports.greeter = void 0;
 function greeter(name) {
     return `Olá ${name}!`;
 }
@@ -35,3 +35,7 @@ function losango(diagonalMaior, diagonalMenor) {
     return (diagonalMaior * diagonalMenor) / 2;
 }
 exports.losango = losango;
+function trapezio(altura, baseMaior, baseMenor) {
+    return ((baseMaior + baseMenor) * altura) / 2;
+}
+exports.trapezio = trapezio;
