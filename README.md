@@ -110,13 +110,20 @@
     - Arquitetura de Software: Model, Service, Controller </br>
     <strong>- Store Manager</strong>
     </details>
-    <details><summary>:construction: Sesson 06</summary>
+    <details><summary>:heavy_check_mark: Sesson 06</summary>
     - Node.js: ORM </br>
     - Node.js: Autenticação JWT </br>
     <strong>- Blogs API</strong>
     </details>
-    <details><summary>:white_check_mark: Sesson 07</summary></details>
-    <details><summary>:white_check_mark: Sesson 08</summary></details>
+    <details><summary>:heavy_check_mark: Sesson 07</summary>
+    - Deploy com Railway </br>
+    </details>
+    <details><summary>:construction: Sesson 08</summary>
+    - Introdução ao TypeScript </br>
+    - Tipagem Estática e Generics </br>
+    - Tipagem Express com TypeScript </br>
+    <strong>- Trybesmith</strong>
+    </details>
     <details><summary>:white_check_mark: Sesson 09</summary></details>
     <details><summary>:white_check_mark: Sesson 10</summary></details>
     <details><summary>:white_check_mark: Sesson 11</summary></details>
