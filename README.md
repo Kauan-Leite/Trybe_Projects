@@ -118,7 +118,7 @@
     <details><summary>:heavy_check_mark: Sesson 07</summary>
     - Deploy com Railway </br>
     </details>
-    <details><summary>:construction: Sesson 08</summary>
+    <details><summary>:heavy_check_mark: Sesson 08</summary>
     - Introdução ao TypeScript </br>
     - Tipagem Estática e Generics </br>
     - Tipagem Express com TypeScript </br>
