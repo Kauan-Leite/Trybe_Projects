@@ -124,14 +124,16 @@
     - Tipagem Express com TypeScript </br>
     <strong>- Trybesmith</strong>
     </details>
-    <details><summary>:construction: Sesson 09</summary>
+    <details><summary>:heavy_check_mark: Sesson 09</summary>
     - Introdução à Orientação a Objetos </br>
     - Heranças e Interfaces </br>
     - Polimorfismo </br>
     - SOLID </br>
     <strong>- Trybers and Dragons</strong>
     </details>
-    <details><summary>:white_check_mark: Sesson 10</summary></details>
+    <details><summary>:construction: Sesson 10</summary>
+    <strong>- Trybe Futebol Clube</strong>
+    </details>
     <details><summary>:white_check_mark: Sesson 11</summary></details>
     <details><summary>:white_check_mark: Sesson 12</summary></details>
     <details><summary>:white_check_mark: Sesson 13</summary></details>
