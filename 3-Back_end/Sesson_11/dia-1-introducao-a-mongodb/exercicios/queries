@@ -1,3 +1,7 @@
 // Exercicio 1
 
 db.bios.find({ _id: 8 })
+
+// Exercicio 2
+
+db.bios.find({ _id: 8 }, { _id: true, name: true })
