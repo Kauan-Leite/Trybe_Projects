@@ -17,3 +17,40 @@ db.bios.find({ 'name.first': 'John' }).pretty();
 // Exercicio 5
 
 db.bios.find().limit(3).pretty();
+
+// Exercicio 6
+
+db.bios.find().skip(5).limit(2);
+
+// Exercicio 7
+
+db.books.countDocuments({});
+
+// Exercicio 8
+
+db.books.countDocuments({ status: "PUBLISH" });
+
+// Exercicio 9
+
+db.books.find(
+  {},
+  {
+      _id: 0,
+      title: 1,
+      isbn: 1,
+      pageCount: 1
+  }
+).limit(3).pretty();
+
+// Exercicio 10
+
+db.books.find(
+  {
+      status: "MEAP"
+  },
+  {
+      title: 1,
+      authors: 1,
+      status: 1
+  }
+).skip(5).limit(10).pretty();
