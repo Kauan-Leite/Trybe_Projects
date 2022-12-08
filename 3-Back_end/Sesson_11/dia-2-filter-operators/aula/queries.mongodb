@@ -1,0 +1,109 @@
+use('aula_29_2');
+
+// Lançados antes de 2000
+db.filmes.find({
+  ano: { $lt: 2000}
+});
+
+// Lançados antes ou em 2000
+db.filmes.find({
+  ano: { $lte: 2000}
+});
+
+// Lançados Depois de 1993
+db.filmes.find({
+  ano: { $gt: 1993}
+});
+
+// Lançados Depois ou em 1993
+db.filmes.find({
+  ano: { $gte: 1993 }
+});
+
+// Lançados Entre 1993 e 2000
+db.filmes.find({
+  ano: {
+    $gte: 1993,
+    $lte: 2000
+  }
+});
+
+// Lançados Em 1993
+db.filmes.find({
+  ano: { $eq: 1993 }
+});
+
+// Avaliação Bom igual 7
+db.filmes.find({
+  'avaliacao.bom': {
+    $eq: 7
+  }
+});
+
+// Avaliação Ruim Diferente de 8
+db.filmes.find({
+  'avaliacao.ruim': {
+    $ne: 8
+  }
+});
+
+// Lançados Em 2001, 1968 3 1995
+db.filmes.find({
+  ano: {
+    $in: [2001, 1968, 1995]
+  }
+});
+
+// Não Lançados Em 2013 e 2008
+db.filmes.find({
+  ano: {
+    $nin: [2013, 2008]
+  }
+});
+
+// Lançados a partir de 2000 e avaliacao bom > 8
+db.filmes.find({
+    $and: [
+      { ano: { $gt: 2000 } },
+      { 'avaliacao.bom': { $gte: 8 }}
+    ]
+});
+
+// Lançados a partir de 2000 ou avaliacao bom > 8
+db.filmes.find({
+  $or: [
+    { ano: { $gt: 2000 }},
+    { 'avaliacao.bom': { $gte: 8}}
+  ]
+});
+
+// Filmes não dirigidos por 'Michael Bay'
+db.filmes.find({
+  diretor: {
+    $not: {$eq: 'Michael Bay'}
+  }
+});
+
+// Filmes não dirigidos por 'Michael Bay' e Avaliacao Ruim !== 10
+db.filmes.find({
+  $nor: [
+    { diretor: 'Michael Bay'},
+    { 'avaliacao.ruim': 10}
+  ]
+});
+
+// Ordenar Filmes por titulo em ordem Crescente
+db.filmes.find().sort({
+  titulo: 1
+});
+
+// Ordenar Filmes por avaliacao boa em ordem Decresente
+db.filmes.find().sort({
+  'avaliacao.boa': -1
+});
+
+// Ordenar Filmes pelos mais recentes e por ordem alfabetica
+db.filmes.find().sort({
+  ano: 1,
+  titulo: 1
+});
