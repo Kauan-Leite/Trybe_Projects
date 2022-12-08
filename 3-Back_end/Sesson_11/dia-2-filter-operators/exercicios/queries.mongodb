@@ -9,6 +9,11 @@ use('class');
 // })
 
 // // Exercicio 3
+// db.superheroes.countDocuments({
+//   'aspects.height': { $lt: 180 }
+// })
+
+// // Exercicio 4
 db.superheroes.countDocuments({
-  'aspects.height': { $lt: 180 }
+  'aspects.height': { $lte: 180 }
 })
