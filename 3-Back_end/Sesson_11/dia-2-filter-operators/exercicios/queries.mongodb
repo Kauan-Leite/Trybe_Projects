@@ -84,6 +84,11 @@ use('class');
 // })
 
 // // Exercicio 16
+// db.superheroes.countDocuments({
+//   race: { $exists: false }
+// })
+
+// // Exercicio 17
 db.superheroes.countDocuments({
-  race: { $exists: false }
+  'aspects.hairColor': { $exists: true }
 })
