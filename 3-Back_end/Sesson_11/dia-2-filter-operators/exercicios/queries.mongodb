@@ -44,6 +44,11 @@ use('class');
 // })
 
 // // Exercicio 10
+// db.superheroes.countDocuments({
+//   'aspects.hairColor': { $in: ['Black', 'No Hair'] }
+// })
+
+// // Exercicio 11
 db.superheroes.countDocuments({
-  'aspects.hairColor': { $in: ['Black', 'No Hair'] }
+  'aspects.hairColor': { $nin: ['Black', 'No Hair'] }
 })
