@@ -3,3 +3,7 @@ use('class');
 // // Exercicio 1
 // db.superheroes.find().limit(1)
 
+// // Exercicio 2
+db.superheroes.find({
+  'aspects.height': { $lte: 180 }
+})
