@@ -67,9 +67,18 @@ use('class');
 // })
 
 // // Exercicio 14
+// db.superheroes.find({
+//   $and: [
+//     { 'aspects.height': { $in: [180, 200] } },
+//     { publisher: 'Marvel Comics' }
+//   ]
+// })
+
+// // Exercicio 15
 db.superheroes.find({
   $and: [
-    { 'aspects.height': { $in: [180, 200] } },
-    { publisher: 'Marvel Comics' }
+    { 'aspects.weight': { $gte: 80, $lte: 100 } },
+    { race: { $in: ['Human', 'Mutant'] }},
+    { publisher: { $not: { $eq: 'DC Comics' } } }
   ]
 })
