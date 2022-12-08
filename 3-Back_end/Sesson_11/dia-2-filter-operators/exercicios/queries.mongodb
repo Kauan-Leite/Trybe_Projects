@@ -24,6 +24,11 @@ use('class');
 // })
 
 // // Exercicio 6
-db.superheroes.countDocuments({
-  'aspects.height': { $gte: 200 }
+// db.superheroes.countDocuments({
+//   'aspects.height': { $gte: 200 }
+// })
+
+// // Exercicio 7
+db.superheroes.find({
+  'aspects.eyeColor': { $eq: 'green' }
 })
