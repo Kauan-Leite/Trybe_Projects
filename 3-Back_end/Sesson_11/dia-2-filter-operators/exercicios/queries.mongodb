@@ -89,6 +89,11 @@ use('class');
 // })
 
 // // Exercicio 17
-db.superheroes.countDocuments({
-  'aspects.hairColor': { $exists: true }
+// db.superheroes.countDocuments({
+//   'aspects.hairColor': { $exists: true }
+// })
+
+// // Exercicio 18
+db.superheroes.deleteOne({
+  publisher: 'Sony Pictures'
 })
