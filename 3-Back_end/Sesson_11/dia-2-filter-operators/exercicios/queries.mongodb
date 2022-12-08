@@ -29,6 +29,11 @@ use('class');
 // })
 
 // // Exercicio 7
-db.superheroes.find({
-  'aspects.eyeColor': { $eq: 'green' }
+// db.superheroes.find({
+//   'aspects.eyeColor': { $eq: 'green' }
+// })
+
+// // Exercicio 8
+db.superheroes.countDocuments({
+  'aspects.eyeColor': { $eq: 'blue' }
 })
