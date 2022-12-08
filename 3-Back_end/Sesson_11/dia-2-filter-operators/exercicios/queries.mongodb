@@ -75,10 +75,15 @@ use('class');
 // })
 
 // // Exercicio 15
-db.superheroes.find({
-  $and: [
-    { 'aspects.weight': { $gte: 80, $lte: 100 } },
-    { race: { $in: ['Human', 'Mutant'] }},
-    { publisher: { $not: { $eq: 'DC Comics' } } }
-  ]
+// db.superheroes.find({
+//   $and: [
+//     { 'aspects.weight': { $gte: 80, $lte: 100 } },
+//     { race: { $in: ['Human', 'Mutant'] }},
+//     { publisher: { $not: { $eq: 'DC Comics' } } }
+//   ]
+// })
+
+// // Exercicio 16
+db.superheroes.countDocuments({
+  race: { $exists: false }
 })
