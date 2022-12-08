@@ -19,6 +19,11 @@ use('class');
 // })
 
 // // Exercicio 5
-db.superheroes.findOne({
+// db.superheroes.findOne({
+//   'aspects.height': { $gte: 200 }
+// })
+
+// // Exercicio 6
+db.superheroes.countDocuments({
   'aspects.height': { $gte: 200 }
 })
