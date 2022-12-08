@@ -54,6 +54,14 @@ use('class');
 // })
 
 // // Exercicio 12
-db.superheroes.countDocuments({
-    'aspects.height': { $not: { $gt: 180 } }
+// db.superheroes.countDocuments({
+//     'aspects.height': { $not: { $gt: 180 } }
+// })
+
+// // Exercicio 13
+db.superheroes.find({
+  $nor: [
+    { race: 'Human' },
+    { 'aspects.height': { $gt: 180 } }
+  ]
 })
