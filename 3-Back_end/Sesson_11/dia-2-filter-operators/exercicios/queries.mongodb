@@ -4,6 +4,11 @@ use('class');
 // db.superheroes.find().limit(1)
 
 // // Exercicio 2
-db.superheroes.find({
-  'aspects.height': { $lte: 180 }
+// db.superheroes.find({
+//   'aspects.height': { $lt: 180 }
+// })
+
+// // Exercicio 3
+db.superheroes.countDocuments({
+  'aspects.height': { $lt: 180 }
 })
