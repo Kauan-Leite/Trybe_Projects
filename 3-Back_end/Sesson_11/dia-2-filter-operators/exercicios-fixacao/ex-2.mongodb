@@ -1,0 +1,40 @@
+use('business')
+
+// EX 1
+
+db.restaurants.find({
+  rating: { $not: { $lte: 5 } }
+}).count()
+
+// EX 2
+
+db.restaurants.countDocuments({
+  $or: [{ rating: { $gte: 4 } }, { borough: { $eq: 'Brooklyn'}}]
+})
+
+// EX 3
+
+db.restaurants.countDocuments({
+  $and: [
+    { borough: { $in: ['Queens', 'Staten Island', 'Brooklyn' ]}},
+    { rating: { $gt: 4 }}
+  ]
+})
+
+// EX 4
+
+db.restaurants.countDocuments({
+  $nor: [
+    { rating: { $eq: 1 }},
+    { cuisine: { $eq: 'American' }}
+  ]
+})
+
+// EX 4
+
+db.restaurants.countDocuments({
+    $and: [
+      { $or: [{ rating: { $gt: 6, $lt: 10 } }] },
+      { $or: [{ borough: 'Brooklyn' }, { cuisine: { $ne: 'Delicatessen' } }] },
+    ],
+  });
