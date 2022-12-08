@@ -59,9 +59,17 @@ use('class');
 // })
 
 // // Exercicio 13
+// db.superheroes.find({
+//   $nor: [
+//     { race: 'Human' },
+//     { 'aspects.height': { $gt: 180 } }
+//   ]
+// })
+
+// // Exercicio 14
 db.superheroes.find({
-  $nor: [
-    { race: 'Human' },
-    { 'aspects.height': { $gt: 180 } }
+  $and: [
+    { 'aspects.height': { $in: [180, 200] } },
+    { publisher: 'Marvel Comics' }
   ]
 })
