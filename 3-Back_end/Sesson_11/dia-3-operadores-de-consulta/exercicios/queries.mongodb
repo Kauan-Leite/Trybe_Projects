@@ -20,9 +20,19 @@ use('cinema')
 // })
 
 // EX 4
+// db.movies.find({
+//   ratings: {
+//     $elemMatch: { $gte: 100, $lte: 105 }
+//   }
+// }).projection({
+//   title: 1,
+//   ratings: 1,
+// })
+
+// EX 5
 db.movies.find({
   ratings: {
-    $elemMatch: { $gte: 100, $lte: 105 }
+    $elemMatch: { $gte: 64, $lte: 105, $mod: [9, 0] }
   }
 }).projection({
   title: 1,
