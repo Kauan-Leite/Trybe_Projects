@@ -64,7 +64,15 @@ use('cinema')
 // })
 
 // EX 9
+// db.movies.find({
+//   budget: { $mod: [5, 0] },
+//   category: { $size: 2 }
+// })
+
+// EX 10
 db.movies.find({
-  budget: { $mod: [5, 0] },
-  category: { $size: 2 }
+  $or: [
+    { category: { $regex: /sci-fi/i } },
+    { ratings: { $elemMatch: { $gt: 199 } } }
+  ]
 })
