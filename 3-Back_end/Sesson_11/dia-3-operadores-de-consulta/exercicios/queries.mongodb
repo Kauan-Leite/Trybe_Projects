@@ -1,92 +1,97 @@
 use('cinema')
 
 // EX 1
-// db.movies.find({
-//   category: { $all: ['action', 'adventure'] }
-// })
+db.movies.find({
+  category: { $all: ['action', 'adventure'] }
+})
 
 // EX 2
-// db.movies.find({
-//   category: { $all: ['action', 'sci-fi'] },
-//   imdbRating: { $gt: 7 }
-// })
+db.movies.find({
+  category: { $all: ['action', 'sci-fi'] },
+  imdbRating: { $gt: 7 }
+})
 
 // EX 3
-// db.movies.find({
-//   ratings: { $gt: 103 },
-// }).projection({
-//   title: 1,
-//   ratings: 1,
-// })
+db.movies.find({
+  ratings: { $gt: 103 },
+}).projection({
+  title: 1,
+  ratings: 1,
+})
 
 // EX 4
-// db.movies.find({
-//   ratings: {
-//     $elemMatch: { $gte: 100, $lte: 105 }
-//   }
-// }).projection({
-//   title: 1,
-//   ratings: 1,
-// })
+db.movies.find({
+  ratings: {
+    $elemMatch: { $gte: 100, $lte: 105 }
+  }
+}).projection({
+  title: 1,
+  ratings: 1,
+})
 
 // EX 5
-// db.movies.find({
-//   ratings: {
-//     $elemMatch: { $gte: 64, $lte: 105, $mod: [9, 0] }
-//   }
-// }).projection({
-//   title: 1,
-//   ratings: 1,
-// })
+db.movies.find({
+  ratings: {
+    $elemMatch: { $gte: 64, $lte: 105, $mod: [9, 0] }
+  }
+}).projection({
+  title: 1,
+  ratings: 1,
+})
 
 // EX 6
-// db.movies.find({
-//   category: { $regex: /adventure/i },
-//   ratings: { $elemMatch: { $gt: 103 } }
-// }).projection({
-//   title: 1,
-//   ratings: 1,
-//   category: 1,
-// })
+db.movies.find({
+  category: { $regex: /adventure/i },
+  ratings: { $elemMatch: { $gt: 103 } }
+}).projection({
+  title: 1,
+  ratings: 1,
+  category: 1,
+})
 
 // EX 7
-// db.movies.find({
-//   category: { $size: 2 }
-// }).projection({
-//   title: 1,
-// })
+db.movies.find({
+  category: { $size: 2 }
+}).projection({
+  title: 1,
+})
 
 // EX 8
-// db.movies.find({
-//   ratings: { $size: 4 }
-// }).projection({
-//   title: 1,
-// })
+db.movies.find({
+  ratings: { $size: 4 }
+}).projection({
+  title: 1,
+})
 
 // EX 9
-// db.movies.find({
-//   budget: { $mod: [5, 0] },
-//   category: { $size: 2 }
-// })
+db.movies.find({
+  budget: { $mod: [5, 0] },
+  category: { $size: 2 }
+})
 
 // EX 10
-// db.movies.find({
-//   $or: [
-//     { category: { $regex: /sci-fi/i } },
-//     { ratings: { $elemMatch: { $gt: 199 } } }
-//   ]
-// })
+db.movies.find({
+  $or: [
+    { category: { $regex: /sci-fi/i } },
+    { ratings: { $elemMatch: { $gt: 199 } } }
+  ]
+})
 
 // EX 11
-// db.movies.find({
-//   $and: [
-//     { ratings: { $size: 4 }},
-//     { category: { $in: ['adventure', 'family'] }},
-//     { imdbRating: { $not: { $lt: 7 }}}
-//   ]
-// })
+db.movies.find({
+  $and: [
+    { ratings: { $size: 4 }},
+    { category: { $in: ['adventure', 'family'] }},
+    { imdbRating: { $not: { $lt: 7 }}}
+  ]
+})
 
 // EX 12
 db.movies.find({
   description: { $regex: /The/ }
+})
+
+// EX 13
+db.movies.find({
+  description: { $regex: /humanity./ }
 })
