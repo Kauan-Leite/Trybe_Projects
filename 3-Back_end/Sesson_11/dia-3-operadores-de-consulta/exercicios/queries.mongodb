@@ -70,9 +70,18 @@ use('cinema')
 // })
 
 // EX 10
+// db.movies.find({
+//   $or: [
+//     { category: { $regex: /sci-fi/i } },
+//     { ratings: { $elemMatch: { $gt: 199 } } }
+//   ]
+// })
+
+// EX 11
 db.movies.find({
-  $or: [
-    { category: { $regex: /sci-fi/i } },
-    { ratings: { $elemMatch: { $gt: 199 } } }
+  $and: [
+    { ratings: { $size: 4 }},
+    { category: { $in: ['adventure', 'family'] }},
+    { imdbRating: { $not: { $lt: 7 }}}
   ]
 })
