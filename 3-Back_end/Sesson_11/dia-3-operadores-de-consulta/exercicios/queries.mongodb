@@ -40,11 +40,18 @@ use('cinema')
 // })
 
 // EX 6
+// db.movies.find({
+//   category: { $regex: /adventure/i },
+//   ratings: { $elemMatch: { $gt: 103 } }
+// }).projection({
+//   title: 1,
+//   ratings: 1,
+//   category: 1,
+// })
+
+// EX 7
 db.movies.find({
-  category: { $regex: /adventure/i },
-  ratings: { $elemMatch: { $gt: 103 } }
+  category: { $size: 2 }
 }).projection({
   title: 1,
-  ratings: 1,
-  category: 1,
 })
