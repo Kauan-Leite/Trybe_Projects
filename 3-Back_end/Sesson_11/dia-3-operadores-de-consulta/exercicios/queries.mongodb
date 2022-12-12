@@ -50,8 +50,15 @@ use('cinema')
 // })
 
 // EX 7
+// db.movies.find({
+//   category: { $size: 2 }
+// }).projection({
+//   title: 1,
+// })
+
+// EX 8
 db.movies.find({
-  category: { $size: 2 }
+  ratings: { $size: 4 }
 }).projection({
   title: 1,
 })
