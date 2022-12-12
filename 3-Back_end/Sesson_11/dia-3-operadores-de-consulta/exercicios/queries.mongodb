@@ -78,10 +78,15 @@ use('cinema')
 // })
 
 // EX 11
+// db.movies.find({
+//   $and: [
+//     { ratings: { $size: 4 }},
+//     { category: { $in: ['adventure', 'family'] }},
+//     { imdbRating: { $not: { $lt: 7 }}}
+//   ]
+// })
+
+// EX 12
 db.movies.find({
-  $and: [
-    { ratings: { $size: 4 }},
-    { category: { $in: ['adventure', 'family'] }},
-    { imdbRating: { $not: { $lt: 7 }}}
-  ]
+  description: { $regex: /The/ }
 })
