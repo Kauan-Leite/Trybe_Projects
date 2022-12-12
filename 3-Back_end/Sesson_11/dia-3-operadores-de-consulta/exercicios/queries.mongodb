@@ -1,6 +1,12 @@
 use('cinema')
 
 // EX 1
+// db.movies.find({
+//   category: { $all: ['action', 'adventure'] }
+// })
+
+// EX 2
 db.movies.find({
-  category: { $all: ['action', 'adventure'] }
+  category: { $all: ['action', 'sci-fi'] },
+  imdbRating: { $gt: 7 }
 })
