@@ -1,0 +1,13 @@
+use('class')
+
+// EX 1
+
+db.movies.updateOne(
+  { title: 'Batman' },
+  {
+    $set: {
+      imdbRating: 7.7
+    }
+  }
+)
+
