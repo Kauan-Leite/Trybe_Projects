@@ -1,0 +1,87 @@
+use('class')
+
+// EX 14
+db.xmen.updateMany(
+  { class: 'unknown' },
+  {
+    $currentDate: {
+      lastUpdated: { $type: 'timestamp' }
+    },
+    $unset: {
+      class: ''
+    }
+  }
+)
+
+// EX 15
+db.xmen.updateMany(
+  {},
+  {
+    $rename: {
+      name: 'hero_name',
+      true_name: 'full_name'
+    },
+    $set: {
+      power: 10
+    }
+  }
+)
+
+// EX 16
+db.xmen.updateMany(
+  { $or: [
+    { class: 'omega' },
+    { class: 'gama' }
+  ]
+  },
+  {
+    $max: {
+      power: 500
+    }
+  }
+)
+
+// EX 17
+db.xmen.updateMany(
+  { class: 'gama' },
+  {
+    $min: {
+      power: 300
+    }
+  }
+)
+
+// EX 18
+db.xmen.updateMany(
+  { class: { $exists: false } },
+  {
+    $inc: {
+      power: -100
+    }
+  }
+)
+
+// EX 19
+db.xmen.updateMany(
+  {
+    $or: [
+    { occupation: 'Senior Staff', power: { $gt: 100 } },
+    { occupation: 'Junior Staff', power: { $gt: 200 } }
+    ]
+  },
+  {
+    $set: {
+      areas: ['Students Room']
+    }
+  }
+)
+
+// EX 20
+db.xmen.updateMany(
+  { occupation: 'Junior Staff', areas: { $exists: false } },
+  {
+    $set: {
+      areas: ['Outside']
+    }
+  }
+)
