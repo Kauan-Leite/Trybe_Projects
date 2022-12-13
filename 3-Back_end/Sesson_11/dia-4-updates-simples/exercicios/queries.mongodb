@@ -43,11 +43,21 @@ use('class')
 // )
 
 // EX 5
+// db.movies.updateOne(
+//   { title: 'Home Alone' },
+//   {
+//     $inc: {
+//       budget: 5
+//     }
+//   }
+// )
+
+// EX 6
 db.movies.updateOne(
-  { title: 'Home Alone' },
+  { title: 'Batman' },
   {
-    $inc: {
-      budget: 5
+    $mul: {
+      imdbRating: 4
     }
   }
 )
