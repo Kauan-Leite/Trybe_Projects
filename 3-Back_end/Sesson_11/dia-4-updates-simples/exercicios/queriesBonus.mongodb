@@ -28,15 +28,25 @@ use('class')
 // )
 
 // EX 16
+// db.xmen.updateMany(
+//   { $or: [
+//     { class: 'omega' },
+//     { class: 'gama' }
+//   ]
+//   },
+//   {
+//     $max: {
+//       power: 500
+//     }
+//   }
+// )
+
+// EX 17
 db.xmen.updateMany(
-  { $or: [
-    { class: 'omega' },
-    { class: 'gama' }
-  ]
-  },
+  { class: 'gama' },
   {
-    $max: {
-      power: 500
+    $min: {
+      power: 300
     }
   }
 )
