@@ -53,11 +53,21 @@ use('class')
 // )
 
 // EX 6
+// db.movies.updateOne(
+//   { title: 'Batman' },
+//   {
+//     $mul: {
+//       imdbRating: 4
+//     }
+//   }
+// )
+
+// EX 7
 db.movies.updateOne(
   { title: 'Batman' },
   {
-    $mul: {
-      imdbRating: 4
+    $rename: {
+      budget: 'estimatedBudget'
     }
   }
 )
