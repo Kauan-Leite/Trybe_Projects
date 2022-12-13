@@ -42,11 +42,21 @@ use('class')
 // )
 
 // EX 17
+// db.xmen.updateMany(
+//   { class: 'gama' },
+//   {
+//     $min: {
+//       power: 300
+//     }
+//   }
+// )
+
+// EX 18
 db.xmen.updateMany(
-  { class: 'gama' },
+  { class: { $exists: false } },
   {
-    $min: {
-      power: 300
+    $inc: {
+      power: -100
     }
   }
 )
