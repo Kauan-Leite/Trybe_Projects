@@ -1,0 +1,14 @@
+use('class')
+
+// EX 14
+db.xmen.updateMany(
+  { class: 'unknown' },
+  {
+    $currentDate: {
+      lastUpdated: { $type: 'timestamp' }
+    },
+    $unset: {
+      class: ''
+    }
+  }
+)
