@@ -14,15 +14,29 @@ use('class')
 // )
 
 // EX 15
+// db.xmen.updateMany(
+//   {},
+//   {
+//     $rename: {
+//       name: 'hero_name',
+//       true_name: 'full_name'
+//     },
+//     $set: {
+//       power: 10
+//     }
+//   }
+// )
+
+// EX 16
 db.xmen.updateMany(
-  {},
+  { $or: [
+    { class: 'omega' },
+    { class: 'gama' }
+  ]
+  },
   {
-    $rename: {
-      name: 'hero_name',
-      true_name: 'full_name'
-    },
-    $set: {
-      power: 10
+    $max: {
+      power: 500
     }
   }
 )
