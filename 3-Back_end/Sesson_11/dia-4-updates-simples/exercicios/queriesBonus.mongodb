@@ -52,11 +52,26 @@ use('class')
 // )
 
 // EX 18
+// db.xmen.updateMany(
+//   { class: { $exists: false } },
+//   {
+//     $inc: {
+//       power: -100
+//     }
+//   }
+// )
+
+// EX 19
 db.xmen.updateMany(
-  { class: { $exists: false } },
   {
-    $inc: {
-      power: -100
+    $or: [
+    { occupation: 'Senior Staff', power: { $gt: 100 } },
+    { occupation: 'Junior Staff', power: { $gt: 200 } }
+    ]
+  },
+  {
+    $set: {
+      areas: ['Students Room']
     }
   }
 )
