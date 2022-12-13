@@ -1,14 +1,28 @@
 use('class')
 
 // EX 14
+// db.xmen.updateMany(
+//   { class: 'unknown' },
+//   {
+//     $currentDate: {
+//       lastUpdated: { $type: 'timestamp' }
+//     },
+//     $unset: {
+//       class: ''
+//     }
+//   }
+// )
+
+// EX 15
 db.xmen.updateMany(
-  { class: 'unknown' },
+  {},
   {
-    $currentDate: {
-      lastUpdated: { $type: 'timestamp' }
+    $rename: {
+      name: 'hero_name',
+      true_name: 'full_name'
     },
-    $unset: {
-      class: ''
+    $set: {
+      power: 10
     }
   }
 )
