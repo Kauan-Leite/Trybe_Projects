@@ -12,11 +12,22 @@ use('class')
 // )
 
 // EX 2
+// db.movies.updateOne(
+//   { title: 'Godzilla' },
+//   {
+//     $set: {
+//       budget: 1
+//     }
+//   }
+// )
+
+// EX 3
 db.movies.updateOne(
-  { title: 'Godzilla' },
+  { title: 'Home Alone' },
   {
     $set: {
-      budget: 1
+      budget: 15,
+      imdbRating: 5.5
     }
   }
 )
