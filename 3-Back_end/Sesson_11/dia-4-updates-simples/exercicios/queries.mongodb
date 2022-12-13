@@ -106,11 +106,22 @@ use('class')
 // )
 
 // EX 11
+// db.movies.updateMany(
+//   {},
+//   {
+//     $set: {
+//       sequels: 0
+//     }
+//   }
+// )
+
+// EX 12
 db.movies.updateMany(
   {},
   {
-    $set: {
-      sequels: 0
+    $unset: {
+      budget: '',
+      estimatedBudget: ''
     }
   }
 )
