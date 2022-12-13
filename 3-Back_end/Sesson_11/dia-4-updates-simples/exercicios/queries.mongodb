@@ -73,11 +73,24 @@ use('class')
 // )
 
 // EX 8
+// db.movies.updateOne(
+//   { title: 'Home Alone' },
+//   {
+//     $min: {
+//       budget: 5
+//     }
+//   }
+// )
+
+// EX 9
 db.movies.updateOne(
-  { title: 'Home Alone' },
+  { title: 'Godzilla' },
   {
-    $min: {
-      budget: 5
+    $max: {
+      imdbRating: 8.6
+    },
+    $set: {
+      'category.1': 'thriller'
     }
   }
 )
