@@ -22,12 +22,22 @@ use('class')
 // )
 
 // EX 3
+// db.movies.updateOne(
+//   { title: 'Home Alone' },
+//   {
+//     $set: {
+//       budget: 15,
+//       imdbRating: 5.5
+//     }
+//   }
+// )
+
+// EX 4
 db.movies.updateOne(
-  { title: 'Home Alone' },
+  { title: 'Batman' },
   {
-    $set: {
-      budget: 15,
-      imdbRating: 5.5
+    $inc: {
+      imdbRating: 2
     }
   }
 )
