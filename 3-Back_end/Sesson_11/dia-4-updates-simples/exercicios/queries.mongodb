@@ -96,11 +96,21 @@ use('class')
 // )
 
 // EX 10
-db.movies.updateOne(
-  { title: 'Home Alone' },
+// db.movies.updateOne(
+//   { title: 'Home Alone' },
+//   {
+//     $currentDate: {
+//       lastUpdated: { $type: 'timestamp' }
+//     }
+//   }
+// )
+
+// EX 11
+db.movies.updateMany(
+  {},
   {
-    $currentDate: {
-      lastUpdated: { $type: 'timestamp' }
+    $set: {
+      sequels: 0
     }
   }
 )
