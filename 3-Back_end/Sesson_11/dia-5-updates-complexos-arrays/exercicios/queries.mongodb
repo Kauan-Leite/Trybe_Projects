@@ -11,13 +11,23 @@ use('cinema')
 // )
 
 // EX 2
+// db.movies.updateOne(
+//   { title: 'Batman' },
+//   {
+//     $push: {
+//       category: {
+//         $each: ['villain', 'comic-based']
+//       }
+//     }
+//   }
+// )
+
+// EX 3
 db.movies.updateOne(
   { title: 'Batman' },
   {
-    $push: {
-      category: {
-        $each: ['villain', 'comic-based']
-      }
+    $pop: {
+      category: -1
     }
   }
 )
