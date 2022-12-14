@@ -5,7 +5,7 @@ use('cinema')
 //   { title: 'Batman' },
 //   {
 //     $push: {
-//       category: 'superhero'
+//       category: 'comic-based'
 //     }
 //   }
 // )
@@ -23,6 +23,16 @@ use('cinema')
 // )
 
 // EX 3
+// db.movies.updateOne(
+//   { title: 'Batman' },
+//   {
+//     $pull: {
+//       category: 'action'
+//     }
+//   }
+// )
+
+// EX 4
 db.movies.updateOne(
   { title: 'Batman' },
   {
