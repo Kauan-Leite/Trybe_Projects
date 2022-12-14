@@ -73,25 +73,36 @@ use('cinema')
 // )
 
 // EX 8
+// db.movies.updateOne(
+//   { title: 'Home Alone' },
+//   {
+//     $push: {
+//       cast: {
+//         $each: [
+//           {
+//             "actor": "Macaulay Culkin",
+//             "character": "Kevin"
+//           },
+//           {
+//             "actor": "Joe Pesci",
+//             "character": "Harry"
+//           },
+//           {
+//             "actor": "Daniel Stern"
+//           }
+//         ]
+//       }
+//     }
+//   }
+// )
+
+// EX 9
 db.movies.updateOne(
-  { title: 'Home Alone' },
   {
-    $push: {
-      cast: {
-        $each: [
-          {
-            "actor": "Macaulay Culkin",
-            "character": "Kevin"
-          },
-          {
-            "actor": "Joe Pesci",
-            "character": "Harry"
-          },
-          {
-            "actor": "Daniel Stern"
-          }
-        ]
-      }
-    }
-  }
-)
+    title: "Home Alone",
+    "cast.actor": "Daniel Stern",
+  },
+  {
+    $set: { "cast.$.character": "Marv" },
+  },
+);
