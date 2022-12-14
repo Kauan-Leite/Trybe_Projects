@@ -53,11 +53,21 @@ use('cinema')
 // )
 
 // EX 6
-db.movies.updateOne(
-  { title: 'Batman' },
+// db.movies.updateOne(
+//   { title: 'Batman' },
+//   {
+//     $addToSet: {
+//       category: 'action'
+//     }
+//   }
+// )
+
+// EX 7
+db.movies.updateMany(
+  { title: { $in: ['Batman', 'Home Alone'] }},
   {
     $addToSet: {
-      category: 'action'
+      category: "90's"
     }
   }
 )
