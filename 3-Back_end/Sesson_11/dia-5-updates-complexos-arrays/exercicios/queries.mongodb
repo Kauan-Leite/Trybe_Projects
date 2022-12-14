@@ -63,11 +63,35 @@ use('cinema')
 // )
 
 // EX 7
-db.movies.updateMany(
-  { title: { $in: ['Batman', 'Home Alone'] }},
+// db.movies.updateMany(
+//   { title: { $in: ['Batman', 'Home Alone'] }},
+//   {
+//     $addToSet: {
+//       category: "90's"
+//     }
+//   }
+// )
+
+// EX 8
+db.movies.updateOne(
+  { title: 'Home Alone' },
   {
-    $addToSet: {
-      category: "90's"
+    $push: {
+      cast: {
+        $each: [
+          {
+            "actor": "Macaulay Culkin",
+            "character": "Kevin"
+          },
+          {
+            "actor": "Joe Pesci",
+            "character": "Harry"
+          },
+          {
+            "actor": "Daniel Stern"
+          }
+        ]
+      }
     }
   }
 )
