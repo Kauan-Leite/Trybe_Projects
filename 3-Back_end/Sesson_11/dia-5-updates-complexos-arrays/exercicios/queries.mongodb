@@ -43,11 +43,21 @@ use('cinema')
 // )
 
 // EX 5
+// db.movies.updateOne(
+//   { title: 'Batman' },
+//   {
+//     $pop: {
+//       category: 1
+//     }
+//   }
+// )
+
+// EX 6
 db.movies.updateOne(
   { title: 'Batman' },
   {
-    $pop: {
-      category: 1
+    $addToSet: {
+      category: 'action'
     }
   }
 )
