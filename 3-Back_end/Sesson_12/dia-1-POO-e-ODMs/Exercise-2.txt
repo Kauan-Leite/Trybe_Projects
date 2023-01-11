@@ -1,0 +1,3 @@
+Qual a diferença entre ODM e ORM?
+
+A diferença mais gritante entre os dois é o tipo de banco de dados para o qual esses mappings de dados são usados. Para bancos relacionais, como PostgreSQL, MySQL e etc., podemos usar um ORM (um exemplo é o Sequelize). Por outro lado, para bancos não relacionais, como MongoDB, Cassandra e etc., podemos usar um ODM (como Mongoose) para obter os mesmos resultados.

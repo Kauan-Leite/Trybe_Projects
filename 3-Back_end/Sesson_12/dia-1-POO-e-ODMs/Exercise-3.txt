@@ -1,0 +1,7 @@
+De acordo com a documentação do Mongoose, uma Interface, um Schema e uma Model servem para representar o quê? Dê exemplos
+
+Uma Interface é um contrato usado para definir a estrutura do documento no MongoDB. Por exemplo: se eu quero ter uma collection chamada User, primeiro eu monto uma estrutura (através de uma interface) e digo para o Mongoose que, lá no MongoDB, User vai ter esse tal formato.
+
+Já o Schema corresponde às regras/validações que minha interface terá. Por exemplo: Se eu quero dizer que algum campo é obrigatório, ou quero passar um valor default, estes devem ser descritos em um Schema.
+
+A Model vai juntar os dois, a representação e as regras. Ela é a responsável por prover a interface de comunicação com o banco de dados; é na model que existe nosso métodos de pesquisa (find), criação (create), alteração (update) e assim por diante… Uma model abstrai o que é “igual” para todo o acesso ao banco e entrega essas funções para aplicação.

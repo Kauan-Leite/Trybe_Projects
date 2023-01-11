@@ -134,11 +134,16 @@
     <details><summary>:heavy_check_mark: Sesson 10</summary>
     <strong>- Trybe Futebol Clube</strong>
     </details>
-        <details><summary>:construction: Sesson 11</summary>
+        <details><summary>:heavy_check_mark: Sesson 11</summary>
     - Introdução à MongoDB </br>
     <strong>- Commerce</strong>
     </details>
-    <details><summary>:white_check_mark: Sesson 12</summary></details>
+    <details><summary>:construction: Sesson 12</summary>
+    - APIs Orientadas a Objetos </br>
+    - NoSQL </br>
+    - ODM </br>
+    <strong>- Car Shop</strong>
+    </details>
     <details><summary>:white_check_mark: Sesson 13</summary></details>
     <details><summary>:white_check_mark: Sesson 14</summary></details>
 
