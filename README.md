@@ -152,13 +152,13 @@
 
 <details>
   <summary><strong>Ciência da Computação :construction:</strong></summary><br />
-    <details><summary>:construction: Sesson 01</summary>
+    <details><summary>:heavy_check_mark: Sesson 01</summary>
     - Aprendendo Python </br>
     - Entrada e Saída de Dados </br>
     - Testes </br>
     <strong>- Job Insights</strong>
     </details>
-    <details><summary>:white_check_mark: Sesson 02</summary></details>
+    <details><summary>:construction: Sesson 02</summary></details>
     <details><summary>:white_check_mark: Sesson 03</summary></details>
     <details><summary>:white_check_mark: Sesson 04</summary></details>
     <details><summary>:white_check_mark: Sesson 05</summary></details>
