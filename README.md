@@ -158,8 +158,14 @@
     - Testes </br>
     <strong>- Job Insights</strong>
     </details>
-    <details><summary>:construction: Sesson 02</summary></details>
-    <details><summary>:white_check_mark: Sesson 03</summary></details>
+    <details><summary>:heavy_check_mark: Sesson 02</summary>
+    - POO em Python </br>
+    - Design Patterns </br>
+    - Padrões - Iterator, Adapter e Strategy </br>
+    - Padrões - Decorator, Observer e Factory </br>
+    <strong>- Relatórios de Estoque</strong>
+    </details>
+    <details><summary>:construction: Sesson 03</summary></details>
     <details><summary>:white_check_mark: Sesson 04</summary></details>
     <details><summary>:white_check_mark: Sesson 05</summary></details>
     <details><summary>:white_check_mark: Sesson 06</summary></details>
