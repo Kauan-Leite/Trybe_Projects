@@ -1,0 +1,601 @@
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-alt-blue /snap/firefox/2391/data-dir/themes/WhiteSur-dark-alt-blue none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-alt-blue" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-alt-green /snap/firefox/2391/data-dir/themes/WhiteSur-dark-alt-green none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-alt-green" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-alt-grey /snap/firefox/2391/data-dir/themes/WhiteSur-dark-alt-grey none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-alt-grey" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-alt-orange /snap/firefox/2391/data-dir/themes/WhiteSur-dark-alt-orange none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-alt-orange" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-alt-pink /snap/firefox/2391/data-dir/themes/WhiteSur-dark-alt-pink none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-alt-pink" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-alt-purple /snap/firefox/2391/data-dir/themes/WhiteSur-dark-alt-purple none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-alt-purple" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-alt-red /snap/firefox/2391/data-dir/themes/WhiteSur-dark-alt-red none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-alt-red" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-alt-yellow /snap/firefox/2391/data-dir/themes/WhiteSur-dark-alt-yellow none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-alt-yellow" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-alt /snap/firefox/2391/data-dir/themes/WhiteSur-dark-alt none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-alt" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-blue /snap/firefox/2391/data-dir/themes/WhiteSur-dark-blue none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-blue" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-green /snap/firefox/2391/data-dir/themes/WhiteSur-dark-green none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-green" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-grey /snap/firefox/2391/data-dir/themes/WhiteSur-dark-grey none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-grey" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-orange /snap/firefox/2391/data-dir/themes/WhiteSur-dark-orange none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-orange" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-pink /snap/firefox/2391/data-dir/themes/WhiteSur-dark-pink none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-pink" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-purple /snap/firefox/2391/data-dir/themes/WhiteSur-dark-purple none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-purple" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-red /snap/firefox/2391/data-dir/themes/WhiteSur-dark-red none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-red" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-solid-alt-blue /snap/firefox/2391/data-dir/themes/WhiteSur-dark-solid-alt-blue none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-solid-alt-blue" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-solid-alt-green /snap/firefox/2391/data-dir/themes/WhiteSur-dark-solid-alt-green none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-solid-alt-green" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-solid-alt-grey /snap/firefox/2391/data-dir/themes/WhiteSur-dark-solid-alt-grey none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-solid-alt-grey" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-solid-alt-orange /snap/firefox/2391/data-dir/themes/WhiteSur-dark-solid-alt-orange none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-solid-alt-orange" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-solid-alt-pink /snap/firefox/2391/data-dir/themes/WhiteSur-dark-solid-alt-pink none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-solid-alt-pink" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-solid-alt-purple /snap/firefox/2391/data-dir/themes/WhiteSur-dark-solid-alt-purple none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-solid-alt-purple" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-solid-alt-red /snap/firefox/2391/data-dir/themes/WhiteSur-dark-solid-alt-red none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-solid-alt-red" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-solid-alt-yellow /snap/firefox/2391/data-dir/themes/WhiteSur-dark-solid-alt-yellow none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-solid-alt-yellow" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-solid-alt /snap/firefox/2391/data-dir/themes/WhiteSur-dark-solid-alt none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-solid-alt" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-solid-blue /snap/firefox/2391/data-dir/themes/WhiteSur-dark-solid-blue none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-solid-blue" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-solid-green /snap/firefox/2391/data-dir/themes/WhiteSur-dark-solid-green none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-solid-green" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-solid-grey /snap/firefox/2391/data-dir/themes/WhiteSur-dark-solid-grey none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-solid-grey" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-solid-orange /snap/firefox/2391/data-dir/themes/WhiteSur-dark-solid-orange none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-solid-orange" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-solid-pink /snap/firefox/2391/data-dir/themes/WhiteSur-dark-solid-pink none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-solid-pink" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-solid-purple /snap/firefox/2391/data-dir/themes/WhiteSur-dark-solid-purple none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-solid-purple" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-solid-red /snap/firefox/2391/data-dir/themes/WhiteSur-dark-solid-red none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-solid-red" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-solid-yellow /snap/firefox/2391/data-dir/themes/WhiteSur-dark-solid-yellow none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-solid-yellow" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-solid /snap/firefox/2391/data-dir/themes/WhiteSur-dark-solid none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-solid" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-yellow /snap/firefox/2391/data-dir/themes/WhiteSur-dark-yellow none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark-yellow" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark /snap/firefox/2391/data-dir/themes/WhiteSur-dark none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-dark" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-alt-blue /snap/firefox/2391/data-dir/themes/WhiteSur-light-alt-blue none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-alt-blue" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-alt-green /snap/firefox/2391/data-dir/themes/WhiteSur-light-alt-green none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-alt-green" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-alt-grey /snap/firefox/2391/data-dir/themes/WhiteSur-light-alt-grey none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-alt-grey" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-alt-orange /snap/firefox/2391/data-dir/themes/WhiteSur-light-alt-orange none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-alt-orange" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-alt-pink /snap/firefox/2391/data-dir/themes/WhiteSur-light-alt-pink none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-alt-pink" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-alt-purple /snap/firefox/2391/data-dir/themes/WhiteSur-light-alt-purple none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-alt-purple" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-alt-red /snap/firefox/2391/data-dir/themes/WhiteSur-light-alt-red none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-alt-red" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-alt-yellow /snap/firefox/2391/data-dir/themes/WhiteSur-light-alt-yellow none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-alt-yellow" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-alt /snap/firefox/2391/data-dir/themes/WhiteSur-light-alt none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-alt" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-blue /snap/firefox/2391/data-dir/themes/WhiteSur-light-blue none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-blue" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-green /snap/firefox/2391/data-dir/themes/WhiteSur-light-green none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-green" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-grey /snap/firefox/2391/data-dir/themes/WhiteSur-light-grey none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-grey" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-orange /snap/firefox/2391/data-dir/themes/WhiteSur-light-orange none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-orange" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-pink /snap/firefox/2391/data-dir/themes/WhiteSur-light-pink none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-pink" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-purple /snap/firefox/2391/data-dir/themes/WhiteSur-light-purple none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-purple" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-red /snap/firefox/2391/data-dir/themes/WhiteSur-light-red none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-red" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-solid-alt-blue /snap/firefox/2391/data-dir/themes/WhiteSur-light-solid-alt-blue none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-solid-alt-blue" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-solid-alt-green /snap/firefox/2391/data-dir/themes/WhiteSur-light-solid-alt-green none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-solid-alt-green" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-solid-alt-grey /snap/firefox/2391/data-dir/themes/WhiteSur-light-solid-alt-grey none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-solid-alt-grey" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-solid-alt-orange /snap/firefox/2391/data-dir/themes/WhiteSur-light-solid-alt-orange none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-solid-alt-orange" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-solid-alt-pink /snap/firefox/2391/data-dir/themes/WhiteSur-light-solid-alt-pink none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-solid-alt-pink" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-solid-alt-purple /snap/firefox/2391/data-dir/themes/WhiteSur-light-solid-alt-purple none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-solid-alt-purple" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-solid-alt-red /snap/firefox/2391/data-dir/themes/WhiteSur-light-solid-alt-red none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-solid-alt-red" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-solid-alt-yellow /snap/firefox/2391/data-dir/themes/WhiteSur-light-solid-alt-yellow none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-solid-alt-yellow" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-solid-alt /snap/firefox/2391/data-dir/themes/WhiteSur-light-solid-alt none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-solid-alt" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-solid-blue /snap/firefox/2391/data-dir/themes/WhiteSur-light-solid-blue none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-solid-blue" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-solid-green /snap/firefox/2391/data-dir/themes/WhiteSur-light-solid-green none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-solid-green" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-solid-grey /snap/firefox/2391/data-dir/themes/WhiteSur-light-solid-grey none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-solid-grey" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-solid-orange /snap/firefox/2391/data-dir/themes/WhiteSur-light-solid-orange none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-solid-orange" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-solid-pink /snap/firefox/2391/data-dir/themes/WhiteSur-light-solid-pink none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-solid-pink" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-solid-purple /snap/firefox/2391/data-dir/themes/WhiteSur-light-solid-purple none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-solid-purple" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-solid-red /snap/firefox/2391/data-dir/themes/WhiteSur-light-solid-red none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-solid-red" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-solid-yellow /snap/firefox/2391/data-dir/themes/WhiteSur-light-solid-yellow none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-solid-yellow" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-solid /snap/firefox/2391/data-dir/themes/WhiteSur-light-solid none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-solid" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-yellow /snap/firefox/2391/data-dir/themes/WhiteSur-light-yellow none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light-yellow" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light /snap/firefox/2391/data-dir/themes/WhiteSur-light none bind,ro 0 0): cannot write to "/snap/whitesur-gtk-theme/209/share/themes/WhiteSur-light" because it would affect the host in "/snap"
+update.go:85: cannot change mount namespace according to change mount (/var/lib/snapd/hostfs/usr/share/gimp/2.0/help /usr/share/gimp/2.0/help none bind,ro 0 0): cannot open directory "/var/lib": permission denied
+update.go:85: cannot change mount namespace according to change mount (/var/lib/snapd/hostfs/usr/share/xubuntu-docs /usr/share/xubuntu-docs none bind,ro 0 0): cannot open directory "/var/lib": permission denied
+1678382363960	geckodriver	INFO	Listening on 127.0.0.1:35585
+1678382364362	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "46581" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileaJDAFB"
+Gtk-Message: 14:19:24.375: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678382364853	Marionette	INFO	Marionette enabled
+1678382364856	Marionette	INFO	Listening on port 45693
+Read port: 45693
+WebDriver BiDi listening on ws://127.0.0.1:46581
+1678382364993	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileaJDAFB/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:46581/devtools/browser/cec15a0d-0041-4023-86cb-e52dfa54ff45
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+JavaScript error: resource:///actors/FormValidationChild.sys.mjs, line 178: TypeError: this._element is null
+1678382377095	Marionette	INFO	Stopped listening on port 45693
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1678382387252	geckodriver	INFO	Listening on 127.0.0.1:39855
+1678382387716	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "38693" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileiZmfNR"
+Gtk-Message: 14:19:47.728: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678382388038	Marionette	INFO	Marionette enabled
+1678382388040	Marionette	INFO	Listening on port 42663
+WebDriver BiDi listening on ws://127.0.0.1:38693
+Read port: 42663
+1678382388227	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileiZmfNR/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:38693/devtools/browser/115ae265-c858-4750-a3c6-9d325aa4fdd7
+1678382390159	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2023-03-09T17:19:51Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-03-09T17:19:51Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-03-09T17:19:51Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-03-09T17:19:51Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-03-09T17:19:51Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-03-09T17:19:51Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-03-09T17:19:51Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-03-09T17:19:51Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+1678382401573	Marionette	INFO	Stopped listening on port 42663
+JavaScript error: https://www.google.com/js/th/BR6vVoJNVskMprD2JiWd2m43-iEG8G6X0Odpr2oJ4kY.js line 2 > eval, line 6342: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/?themeRefresh=1, line 12: TypeError: can't access dead object
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1678382493251	geckodriver	INFO	Listening on 127.0.0.1:33555
+1678382493720	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "57815" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileOsiDoA"
+Gtk-Message: 14:21:33.731: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678382494038	Marionette	INFO	Marionette enabled
+1678382494040	Marionette	INFO	Listening on port 35095
+WebDriver BiDi listening on ws://127.0.0.1:57815
+Read port: 35095
+1678382494228	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileOsiDoA/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57815/devtools/browser/c02276ff-7240-4f45-a1c3-2cf18bd63246
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.br."
+1678382505963	Marionette	INFO	Stopped listening on port 35095
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1678382567677	geckodriver	INFO	Listening on 127.0.0.1:45311
+1678382568143	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "55359" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileBKg2do"
+Gtk-Message: 14:22:48.155: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678382568473	Marionette	INFO	Marionette enabled
+1678382568475	Marionette	INFO	Listening on port 45997
+Read port: 45997
+WebDriver BiDi listening on ws://127.0.0.1:55359
+1678382568575	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBKg2do/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55359/devtools/browser/786cf8b7-ecbf-42cb-a589-98207a199734
+JavaScript warning: https://books.toscrape.com/static/oscar/js/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://books.toscrape.com/static/oscar/js/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1678382595298	Marionette	INFO	Stopped listening on port 45997
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1678382742981	geckodriver	INFO	Listening on 127.0.0.1:33741
+1678382743449	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "35777" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileOZS0D5"
+Gtk-Message: 14:25:43.460: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678382743775	Marionette	INFO	Marionette enabled
+1678382743777	Marionette	INFO	Listening on port 45533
+WebDriver BiDi listening on ws://127.0.0.1:35777
+Read port: 45533
+1678382743961	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileOZS0D5/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:35777/devtools/browser/e88ef65b-b63f-4eb1-bc43-dd85c69eb729
+JavaScript warning: https://books.toscrape.com/static/oscar/js/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://books.toscrape.com/static/oscar/js/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://books.toscrape.com/static/oscar/js/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://books.toscrape.com/static/oscar/js/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+ALSA lib conf.c:4120:(snd_config_update_r) Cannot access file /usr/share/alsa/alsa.conf
+ALSA lib seq.c:935:(snd_seq_open_noupdate) Unknown SEQ default
+1678382893483	geckodriver	INFO	Listening on 127.0.0.1:53651
+1678382893951	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "40545" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileQPIXnv"
+Gtk-Message: 14:28:13.964: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678382894322	Marionette	INFO	Marionette enabled
+1678382894324	Marionette	INFO	Listening on port 32941
+Read port: 32941
+WebDriver BiDi listening on ws://127.0.0.1:40545
+1678382894410	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQPIXnv/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:40545/devtools/browser/a6f4384f-1fe3-45f9-b1a4-b61ad897d96d
+JavaScript warning: https://books.toscrape.com/static/oscar/js/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://books.toscrape.com/static/oscar/js/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://books.toscrape.com/static/oscar/js/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://books.toscrape.com/static/oscar/js/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1678382898426	Marionette	INFO	Stopped listening on port 45533
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+ALSA lib conf.c:4120:(snd_config_update_r) Cannot access file /usr/share/alsa/alsa.conf
+ALSA lib seq.c:935:(snd_seq_open_noupdate) Unknown SEQ default
+1678382954114	Marionette	INFO	Stopped listening on port 32941
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1678382985752	geckodriver	INFO	Listening on 127.0.0.1:59677
+1678382986218	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "50967" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile85jh5f"
+Gtk-Message: 14:29:46.230: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678382986541	Marionette	INFO	Marionette enabled
+1678382986543	Marionette	INFO	Listening on port 45083
+WebDriver BiDi listening on ws://127.0.0.1:50967
+Read port: 45083
+1678382986643	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile85jh5f/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50967/devtools/browser/d745dd91-4d20-4683-b321-c257489aac67
+1678382987381	geckodriver	INFO	Listening on 127.0.0.1:56423
+1678382987844	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--headless" "--remote-debugging-port" "41439" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2FkMh2"
+*** You are running in headless mode.
+Gtk-Message: 14:29:47.857: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678382987972	Marionette	INFO	Marionette enabled
+1678382987973	Marionette	INFO	Listening on port 46665
+WebDriver BiDi listening on ws://127.0.0.1:41439
+Read port: 46665
+1678382988134	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2FkMh2/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41439/devtools/browser/01e99d24-bce6-414f-a43f-8c0a2498959b
+JavaScript warning: https://books.toscrape.com/static/oscar/js/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://books.toscrape.com/static/oscar/js/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://books.toscrape.com/static/oscar/js/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://books.toscrape.com/static/oscar/js/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+ALSA lib conf.c:4120:(snd_config_update_r) Cannot access file /usr/share/alsa/alsa.conf
+ALSA lib seq.c:935:(snd_seq_open_noupdate) Unknown SEQ default
+ALSA lib conf.c:4120:(snd_config_update_r) Cannot access file /usr/share/alsa/alsa.conf
+ALSA lib seq.c:935:(snd_seq_open_noupdate) Unknown SEQ default
+ALSA lib conf.c:4120:(snd_config_update_r) Cannot access file /usr/share/alsa/alsa.conf
+ALSA lib seq.c:935:(snd_seq_open_noupdate) Unknown SEQ default
+1678383049106	Marionette	INFO	Stopped listening on port 45083
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
