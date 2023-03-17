@@ -1,5 +1,5 @@
 <h1 align="center"> Trybe Exercícios </h1>
-<p align="center"> O repositório contém todos os exercicios realizados por mim durante <b>8 Mêses</b> de estudo na Trybe. </p>
+<p align="center"> O repositório contém todos os exercicios realizados por mim durante <b>11 Mêses</b> de estudo na Trybe. </p>
 <br>
 <details>
   <summary><strong>Fundamentos do Desenvolvimento Web :heavy_check_mark:</strong></summary><br />
@@ -165,8 +165,17 @@
     - Padrões - Decorator, Observer e Factory </br>
     <strong>- Relatórios de Estoque</strong>
     </details>
-    <details><summary>:construction: Sesson 03</summary></details>
-    <details><summary>:white_check_mark: Sesson 04</summary></details>
+    <details><summary>:heavy_check_mark: Sesson 03</summary>
+    - Raspagem de Dados </br>
+    <strong>- Tech News</strong>
+    </details>
+    <details><summary>:construction: Sesson 04</summary>
+    - Algoritmos </br>
+    - Complexidade de Algoritmos </br>
+    - Recursividade e Estratégias para solução de Problemas </br>
+    - Algoritmos de ordenação e busca </br>
+    <strong>- Algoritmos</strong>
+    </details>
     <details><summary>:white_check_mark: Sesson 05</summary></details>
     <details><summary>:white_check_mark: Sesson 06</summary></details>
 </details>
