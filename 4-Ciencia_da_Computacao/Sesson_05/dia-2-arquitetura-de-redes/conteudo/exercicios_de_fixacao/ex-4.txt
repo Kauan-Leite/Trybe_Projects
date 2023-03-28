@@ -1,0 +1,3 @@
+Cite recursos que podemos utilizar para minimizar os riscos de ataques.
+
+Resposta: Senhas fortes, uso de 2FA (two-factor authentication) e configuração de camadas extras de proteção em nossos servidores (firewall).

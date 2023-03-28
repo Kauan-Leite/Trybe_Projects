@@ -1,0 +1,3 @@
+Senhas fortes, uso de 2FA (two-factor authentication) e configuração de camadas extras de proteção em nossos servidores (firewall).
+
+Resposta: Não. Os Firewalls impedem ou permitem tanto a entrada quanto a saída de tráfegos em uma rede.

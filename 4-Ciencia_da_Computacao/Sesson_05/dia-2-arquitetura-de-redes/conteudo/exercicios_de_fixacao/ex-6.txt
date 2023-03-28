@@ -1,0 +1,3 @@
+Como funciona o Fail2ban?
+
+Resposta: Ele monitora os logs da rede, e caso detecte um comportamento suspeito, cria regras no iptables para aumentar a segurança.

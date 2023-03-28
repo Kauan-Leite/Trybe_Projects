@@ -1,0 +1,4 @@
+Agora que você sabe para que serve o Proxy, dê exemplos de seu uso na vida real.
+
+Resposta: O controle parental é bastante comum quando os pais não desejam que suas crianças acessem determinadas páginas.
+Dentro das empresas também é comum o bloqueio de acesso à redes sociais entre outros casos.
