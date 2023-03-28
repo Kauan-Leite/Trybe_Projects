@@ -1,0 +1,13 @@
+curl -X GET google.com
+
+curl -X POST \
+    -H 'Content-Type: application/json' \
+    -d '{ "foo": "bar" }' \
+    google.com
+
+curl --request POST \
+    --header 'Content-Type: application/json' \
+    --header 'Authorization: ApiKey EXAMPLE-TOKEN' \
+    --data '{ "foo": "bar" }' \
+    google.com
+

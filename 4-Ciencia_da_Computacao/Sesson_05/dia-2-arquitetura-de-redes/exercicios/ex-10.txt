@@ -1,0 +1,8 @@
+mkdir diretorio && cd diretorio
+python3 -m http.server 80
+
+unzip /path/to/ngrok.zip
+
+./ngrok http 80
+
+./ngrok http 80
