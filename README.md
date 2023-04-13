@@ -183,7 +183,7 @@
       - Pilhas e Filas </br>
       <strong>- TING | Trybe Is Not Google</strong>
     </details>
-    <details><summary>:construction: Sesson 06</summary>
+    <details><summary>:heavy_check_mark: Sesson 06</summary>
       - Hashmap e Dict </br>
       - Set </br>
       - Pandas </br>
