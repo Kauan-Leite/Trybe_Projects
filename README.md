@@ -150,7 +150,7 @@
 </details>
 
 <details>
-  <summary><strong>Ciência da Computação :construction:</strong></summary><br />
+  <summary><strong>Ciência da Computação :heavy_check_mark:</strong></summary><br />
     <details><summary>:heavy_check_mark: Sesson 01</summary>
       - Aprendendo Python </br>
       - Entrada e Saída de Dados </br>
